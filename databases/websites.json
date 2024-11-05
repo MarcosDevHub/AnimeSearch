@@ -1,0 +1,102 @@
+{
+    "https://animeshd.to/": {
+        "is_special": false,
+
+        "scrap_tecnic": "basic",
+        
+        "SEARCH_ENGINE": {
+            "payload": {
+                "url": "https://animeshd.to/wp-json/dooplay/search/",
+                "data": null,
+                "method": "get",
+                "params": {"keyword": "{{search}}", "nonce": "61e5c3ea13"},
+                "headers": {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/129.0.2792.79"}
+
+            },
+            "results": {
+                "json": ["title", "url"]
+            }
+        }
+    },
+
+    "https://goyabu.to/": {
+        "is_special": false,
+
+        "scrap_tecnic": "basic",
+        
+        "SEARCH_ENGINE": {
+            "payload": {
+                "url": "https://goyabu.to/wp-json/animeonline/search/",
+                "data": null,
+                "method": "get",
+                "params": {"keyword": "{{search}}", "nonce": "5ecb5079b5"},
+                "headers": {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/129.0.2792.79"}
+
+            },
+            "results": {
+                "json": ["title", "url"]
+            }
+        }
+    },
+
+    "https://animeschan.com/": {
+        "is_special": false,
+
+        "scrap_tecnic": "basic",
+        
+        "SEARCH_ENGINE": {
+            "payload": {
+                "url": "https://animeschan.com/wp-json/dooplay/search/",
+                "data": null,
+                "method": "get",
+                "params": {"keyword": "{{search}}", "nonce": "0b43bd0c2a"},
+                "headers": {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/129.0.2792.79"}
+
+            },
+            "results": {
+                "json": ["title", "url"]
+            }
+        }
+    },
+
+    "https://nimesorionvip.net": {
+        "is_special": false,
+
+        "scrap_tecnic": "basic",
+        
+        "SEARCH_ENGINE": {
+            "payload": {
+                "url": "https://animesorionvip.net/wp-json/animesorion/search/",
+                "data": null,
+                "method": "get",
+                "params": {"keyword": "{{search}}", "nonce": "159160d430"},
+                "headers": {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/129.0.2792.79"}
+
+            },
+            "results": {
+                "json": ["title", "url"]
+            }
+        }
+    },
+
+    "https://animesdrive.blog": {
+        "is_special": false,
+
+        "scrap_tecnic": "basic",
+        
+        "SEARCH_ENGINE": {
+            "payload": {
+                "url": "https://animesdrive.blog/wp-json/dooplay/search/",
+                "data": null,
+                "method": "get",
+                "params": {"keyword": "{{search}}", "nonce": "2cf7e710c5"},
+                "headers": {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/129.0.2792.79"}
+
+            },
+            "results": {
+                "json": ["title", "url"]
+            }
+        }
+    }
+
+}
