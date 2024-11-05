@@ -31,6 +31,8 @@ Resposta: {"nome do site": None}
 ```
 
 ## Configuração e Execução
+### dependências:
+- aiohttp
 
 A aplicação deve ser executada dentro de um client, que neste caso é o `client.py`. Você pode expandir a aplicação, adicionando lógicas, ações e comandos. A AniSearch foi projetada como um módulo, permitindo que você:
 
